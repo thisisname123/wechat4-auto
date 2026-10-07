@@ -1,0 +1,17 @@
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PowerShell / module
+*.psd1.tmp
+*.log
+
+# Temporary OCR screenshots written by the module
+*.png
+!docs/*.png
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
