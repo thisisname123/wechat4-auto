@@ -1,0 +1,10 @@
+# Normalize line endings to LF in the repository, keep CRLF in the working tree.
+* text=auto
+
+# PowerShell source files
+*.ps1   text eol=lf
+*.psm1  text eol=lf
+*.psd1  text eol=lf
+
+# Documentation
+*.md    text eol=lf

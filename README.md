@@ -1,5 +1,8 @@
 # wechat4-auto
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/thisisname123/wechat4-auto/actions/workflows/ci.yml/badge.svg)](https://github.com/thisisname123/wechat4-auto/actions/workflows/ci.yml)
+
 给 **微信 4.x（Windows 桌面版，`Weixin.exe`）** 发消息的零依赖自动化脚本。
 
 > Windows 上微信 4.x 客户端用 Qt + 自研 MMUI 渲染，几乎不暴露 UI-Automation 控件树，导致 `uiautomation` / `pywinauto` 这类老工具失效。本工具改用 **「Windows 内置 OCR 读屏 + 屏幕坐标注入」** 的方式，不依赖 Hook、不依赖协议、不需要安装任何第三方库。
@@ -84,7 +87,7 @@ Send-WechatMessage -Message "你好"                  # 发给当前聊天
 
 ## License
 
-[MIT](LICENSE) —— 发布前请把 `LICENSE` 中的版权署名 `wechat4-auto contributors` 改成你自己的名字 / GitHub 用户名。
+[MIT](LICENSE)
 
 ---
 
